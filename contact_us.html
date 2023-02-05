@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anjali Palce</title>
+
+    <!---font-awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link href="assets/css/swiper.css" rel="stylesheet">
+    <!-- Lightslider CSS -->
+    <link href="assets/css/lightslider.min.css" rel="stylesheet">
+    <!--Lightgallery CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-bundle.min.css"
+        integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark " aria-label="Ninth navbar example">
+            <div class="container-xl">
+                <!-- <a class="navbar-brand" href="#">Container XL</a>-->
+                <a href="index.html" class="navbar-brand logo">A<span class="logoB">njali</span>p<span
+                        class="logoB">alace</span></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbarsExample07XL">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rooms.html">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="amenities.html">Amenities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact_us.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+                    <button type="button" class="btn btn-outline-dark head_book_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Book Now</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="https://bplab.in/page/contact_us"  class="p-4  border rounded-3 bg-light" method="post">
+            
+            <div class="form-floating mb-3"><input class="form-control"  maxlength="30" name="name" placeholder="Enter Name" required="" type="text"> <label for="floatingInput">Name</label></div>
+            
+            <div class="form-floating mb-3"><input class="form-control"  maxlength="10" name="contact_no" placeholder="Enter Contact No." required="" type="number"> <label for="floatingInput">Contact No.</label></div>
+            <!--  <div class="form-floating mb-3"><input class="form-control" id="subject" maxlength="100" name="subject" placeholder="Enter Subject" required="" type="text"> <label for="floatingInput">Subject</label></div>-->
+            <div class="form-floating mb-3"><input class="form-control" maxlength="30" name="booking_date" min="2023-01-03" required="" type="date"> <label for="floatingInput">Date:</label></div>
+            <div class="form-floating mb-3"><textarea class="form-control"  name="message" required="" rows="3"></textarea><label for="floatingInput">Address</label></div>
+              <button type="submit" class="btn btn-primary" >Submit</button>
+              
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="amn_banner">
+        <div class="container p-5">
+
+           <h2 class="text-center p-5">Contact Us</h2>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/img/contact.png" width="500" height="400" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <form action="https://bplab.in/page/contact_us" id="contactForm" class="p-4  border rounded-3 bg-light" method="post">
+                        <h4>Get In Touch :</h4>
+                        <div class="form-floating mb-3"><input class="form-control" id="contact_name" maxlength="30" name="name" placeholder="Enter Name" required="" type="text"> <label for="floatingInput">Name</label></div>
+                        
+                        <div class="form-floating mb-3"><input class="form-control" id="contact_email" maxlength="30" name="email" placeholder="name@example.com" required="" type="email"> <label for="floatingInput">Email address</label></div>
+                        
+                        <div class="form-floating mb-3"><input class="form-control" id="contact_contact_no" maxlength="10" name="contact_no" onkeyup="return onlyNumberKeyContactMobile(event)" placeholder="Enter Contact No." required="" type="number"> <label for="floatingInput">Contact No.</label></div>
+                        <!--  <div class="form-floating mb-3"><input class="form-control" id="subject" maxlength="100" name="subject" placeholder="Enter Subject" required="" type="text"> <label for="floatingInput">Subject</label></div>-->
+                        
+                        <div class="form-floating mb-3"><textarea class="form-control" id="contact_message" name="message" required="" rows="3"></textarea><label for="floatingInput">Message</label></div>
+                          <button type="submit" class="btn btn-primary" id="contact_submit_btn">Submit</button>
+                          <div id="contactMsg"></div>
+                          <span id="contact_loading" style="display:none;">Submitting...Please wait</span>
+                        </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo mt-5 mb-4"> A<span class="logoA">njali</span>p<span class="logoA">alace</span>
+                    </div>
+                    <p class="content mt-3">Gravida maecenas mi iaculis non, posuere mattis urna, ac risus sit porta
+                        nunc nibh
+                        dictum proin leo dolor sed bibendum mi.</p>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5>Hotel</h5>
+                    <ul class="list-unstyled  mt-4">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Get Directions</a></li>
+                        <li><a href="#">Nearby Visits</a></li>
+                        <li><a href="#">Contact Us</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5>Customer Help</h5>
+                    <ul class="list-unstyled  mt-4">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">Guest Feedback</a></li>
+                        <li><a href="#">Guest Support</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled mt-4">
+                        <li><img src="assets/img/call.png" width="20px" height="20px"> +91 8328844848</li>
+                        <li class="content"><img src="assets/img/pin.png" width="20px" height="20px"> Hotel Anjali
+                            palace, Ashok
+                            Nagar, Bhubaneswar, Odisha 751009 </li>
+                    </ul>
+
+                    <ul class="list-unstyled d-flex">
+                        <li><a class="link-dark" href="https://www.facebook.com"> <img src="assets/img/fb.png"
+                                    width="25px" height="25px"></a></li>
+                        <li class="ms-3"><a class="link-dark" href="https://twitter.com"> <img src="assets/img/twit.png"
+                                    width="25px" height="25px"></a></li>
+                        <li class="ms-3"><a class="link-dark" href="https://www.instagram.com"><img
+                                    src="assets/img/insta.png" width="25px" height="25px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="sub_footer p-1">
+        <p class="text-center mt-3">Copyright © 2022 Anjali Palace | Powered by Anjali Palace</p>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- lightslider JS -->
+    <script src="assets/js/lightslider.js"></script>
+    <!--lightgallery js-->
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+    <script src="../demo/js/lg-rotate.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'));
+    </script>
+</body>
+
+</html>

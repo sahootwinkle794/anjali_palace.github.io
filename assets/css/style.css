@@ -1,0 +1,410 @@
+.navbar-toggler {
+    background-color: black;
+}
+.nav-link:hover{
+    color: #fdab5f !important;
+}
+.navbar .navbar-brand {
+    color: #000000;
+}
+
+.navbar a {
+    color: #000000;
+} 
+.head_book_btn{
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.3614px;
+    line-height: 18px;
+}
+.navbar li {
+    color: #000000;
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.3614px;
+}
+.banner .carousel-inner img{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) !important;
+}
+.carousel-caption{
+    padding-bottom: 7.25rem !important;
+}
+.rbanner{
+    background: url(/assets/img/rbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.rbanner  h2{
+    color: white;
+    font-family: 'Gentium Book Basic';
+    font-size: 34px;
+    line-height: 35px;
+}
+.rbanner  p{
+    color: white;
+    font-family: 'Gentium Book Basic';
+    font-size: 19px;
+}
+.amn_banner{
+    background: url(/assets/img/amn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.amn_banner h2{
+    color: white;
+    font-family: 'Gentium Book Basic';
+    font-size: 34px;
+    line-height: 35px;
+}
+.amn_banner p{
+    color: white;
+    font-family: 'Gentium Book Basic';
+    font-size: 19px;
+}
+.visit {
+    width: 352.94px;
+    height: 277px;
+    background: #f9f9f9;
+    border: 1px solid #8F8F91;
+    border-radius: 15px;
+
+    position: relative;
+    width: 85%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fdfdfda8;
+    border-radius: 15px;
+  }
+  .visit:hover .layer {
+    opacity: 1;
+
+  }
+.text {
+  color: rgb(30, 21, 21);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    white-space: nowrap; 
+    width: 18rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text2 {
+    color: rgb(30, 21, 21);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Gentium Book Basic';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      white-space: nowrap; 
+      width: 80px; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+.visit img {
+    width: 360.94px;
+    height: 277px;
+    background: #ffffff;
+    border: 1px solid #8F8F91;
+    border-radius: 15px;
+}
+
+.cap_font{
+font-family: 'Gentium Book Basic';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 59px;
+color: #FFFFFF;
+}
+.cap_font p{
+    font-family: 'Gentium Book Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+h2 {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+
+    color: #000000;
+}
+.gallery img{
+    border-radius: 12px;
+    width: 355px;
+}
+.amenities {
+    background: url("/assets/img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.amen-card {
+    width: 304px;
+    height: 303px !important;
+    background: #FFFFFF;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.amen-card img {
+    width: 302px;
+    height: 244px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.accom-card {
+    width: 304px;
+    height: 263px !important;
+    background: #FFFFFF;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.accom-card img {
+    width: 302px;
+    height: 244px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-title {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.rooms {
+    background: url("/assets/img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book_banner {
+    background: url("/assets/img/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book_btn {
+    box-sizing: border-box;
+    width: 157px;
+    height: 42px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 33px;
+    margin-top: 100px;
+    float: right;
+
+}
+
+.head_book_btn {
+    box-sizing: border-box;
+    width: 157px;
+    height: 42px;
+    border-radius: 33px;
+}
+
+.book_p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.book_banner h2 {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.gallery_p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+footer {
+    background: url("/assets/img/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.122px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.logoA {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.6829px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.logoB {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.6829px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.content {
+    text-align: justify;
+}
+
+footer p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+footer h5 {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+footer ul a {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer ul {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.sub_footer {
+    background: #000000;
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.Guests {
+    background: url("/assets/img/bg4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client {
+    box-sizing: border-box;
+    width: 332.06px;
+    height: 239px;
+    background: #FFFFFF;
+    border: 1px solid #14DFFB;
+    border-radius: 0px 57.404px;
+}
+
+.star {
+    color: rgb(255, 208, 0);
+}
+
+.dp {
+    box-sizing: border-box;
+    position: absolute;
+    width: 88.31px;
+    height: 88.31px;
+    left: 120px;
+    top: -43px;
+    background: url(http://anjalipalace.com/wp-content/uploads/2021/05/testimonial1.jpg);
+    border: 0.883139px solid #14DFFB;
+    border-radius: 48px;
+}
+
+#responsive3 {
+    height: 305px !important;
+}
+
+#responsive {
+    height: 305px !important;
+}
+
+#responsive2 {
+    height: 330px !important;
+}
+
+@media (max-width: 767.98px) {
+
+    .book_btn {
+        float: left !important;
+        margin-top: 34px;
+    }
+    .layer{
+        width: 23rem;
+    }
+
+}
